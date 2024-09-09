@@ -105,8 +105,21 @@ Finalmente, ```RandomSearch``` también tiene como parámetro de entrada ```cifr
 
 ```RandoGoldenSectionSearchmSearch``` tiene como parámetro de entrada ```minimize```, que por defecto es ```False```. Establecer este parámetro como ```True``` hará que el algoritmo busque por mínimos de funciones. 
 
-## Import error por versiones de numpy
+## Google Colab
+Para importar en colab:
+
+```
+!wget https://github.com/jgomelop/MetodosOptimizacion/tree/master/methods
+```
+
+## FAQ
+
+**Import error por versiones de numpy**
 Si aparece un ImportError, es por un problema con las versiones entre numpy y pandas. Se recomienda instalar una versión de numpy<2. En general, se recomienda no isntalar la última versión de python hasta la fecha, la 3.12, y trabajar con la versión 3.11.x
+
+**Copio un código de ejemplo, y sólo aparece una gráfica**
+Debes cerrar el primer gráfico para generar el segundo.
+
 
 
 
