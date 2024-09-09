@@ -82,7 +82,9 @@ opt.get_estimated_opt()
 ### Random Search
 Como se mencionó anteriormente, ```RandomSearch``` no implementa estas interfaces debido a su naturaleza. Los métodos principales de esta clase son:
 - ```plot```: Grafica de la función con uno o varios puntos que aproximan el máximo o mínimo de la función $f(x,y)$.
-- ```get_table```: Obtiene la tabla con el número máximo de iteraciones,$x$, $y$ y $f(x,y)$. Esta tabla puede tener varias filas como se explica más adelante.
+- ```get_table```: Obtiene la tabla con el número máximo de iteraciones, $x$, $y$ y $f(x,y)$. Esta tabla puede tener varias filas como se explica más adelante.
+
+```RandomSearch``` recibe los intervalos para $x$ y para $y$ como tuplas (ver ejemplo más abajo). Primero van los de $x$ y luego los de $y$.
 
 ```RandomSearch``` tiene como parámetro de entrada ```minimize```, que por defecto es ```False```. Establecer este parámetro como ```True``` hará que el algoritmo busque por mínimos de funciones. 
 
