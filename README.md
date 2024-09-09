@@ -105,7 +105,7 @@ Finalmente, ```RandomSearch``` también tiene como parámetro de entrada ```cifr
 
 ### GoldenSectionSearch
 
-```RandoGoldenSectionSearchmSearch``` tiene como parámetro de entrada ```minimize```, que por defecto es ```False```. Establecer este parámetro como ```True``` hará que el algoritmo busque por mínimos de funciones. 
+```GoldenSectionSearchmSearch``` tiene como parámetro de entrada ```minimize```, que por defecto es ```False```. Establecer este parámetro como ```True``` hará que el algoritmo busque por mínimos de funciones. 
 
 ## Google Colab
 Para importar en colab:
