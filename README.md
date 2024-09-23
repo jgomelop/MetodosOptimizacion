@@ -111,9 +111,13 @@ Finalmente, ```RandomSearch``` también tiene como parámetro de entrada ```cifr
 Para importar en colab:
 
 ```
-!wget https://github.com/jgomelop/MetodosOptimizacion/tree/master/methods
+!git clone https://github.com/jgomelop/MetodosOptimizacion.git
 ```
+Posteriormente:
 
+```python
+from MetodosOptimizacion.methods.RootFinding import NewtonRaphson
+```
 ## FAQ
 
 **Import error por versiones de numpy**
